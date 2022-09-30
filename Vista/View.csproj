@@ -86,9 +86,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\API_Sencilla\API_Sencilla.csproj">
+    <ProjectReference Include="..\API_Sencilla\ServiceAPI.csproj">
       <Project>{072a9695-3173-4ece-9975-28c01de7f3ca}</Project>
-      <Name>API_Sencilla</Name>
+      <Name>ServiceAPI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
